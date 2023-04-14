@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d9c7ac0ca4170214f6a29b6f511f2a2a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d9c7ac0ca4170214f6a29b6f511f2a2a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d9c7ac0ca4170214f6a29b6f511f2a2a = L.map(
+                "map_d9c7ac0ca4170214f6a29b6f511f2a2a",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bbf85e0e70bafc8ff5ed07db90581406 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d9c7ac0ca4170214f6a29b6f511f2a2a);
+        
+    
+            var marker_cluster_0f7cb20e044ecca2491c994e94da6724 = L.markerClusterGroup(
+                {"radius": 50}
+            );
+            map_d9c7ac0ca4170214f6a29b6f511f2a2a.addLayer(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            var marker_b0581c4b7fdefb7f3dc2fb84feab07d7 = L.marker(
+                [-29.4748, -178.7874],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_b0581c4b7fdefb7f3dc2fb84feab07d7.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (-29.47, -178.79)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3a2dc32b84748b492068558f878352e = L.marker(
+                [-15.4087, 166.3656],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_f3a2dc32b84748b492068558f878352e.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (-15.41, 166.37)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_327e63a3205ddc4160b6a76698e08e98 = L.marker(
+                [-4.8138, 149.487],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_327e63a3205ddc4160b6a76698e08e98.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (-4.81, 149.49)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ee6cac39d1842b2cf24fa066ce30747 = L.marker(
+                [3.282, 128.1364],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_7ee6cac39d1842b2cf24fa066ce30747.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (3.28, 128.14)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07b862abae22a3cceba269af76d490b3 = L.marker(
+                [12.3255, 123.868],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_07b862abae22a3cceba269af76d490b3.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (12.33, 123.87)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abfb0abe1dff88ac937070abc3fedb16 = L.marker(
+                [19.1136666666667, -155.407166666667],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_abfb0abe1dff88ac937070abc3fedb16.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (19.11, -155.41)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef54229dccff247cc06b09397dd358d2 = L.marker(
+                [36.1588, 36.0238],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_ef54229dccff247cc06b09397dd358d2.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (36.16, 36.02)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_910168f1e547577084343760c475caca = L.marker(
+                [38.0726, 73.2077],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_910168f1e547577084343760c475caca.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (38.07, 73.21)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5870771a2a97a8a97dde7b8eb46c83bc = L.marker(
+                [45.1058, 23.2068],
+                {}
+            ).addTo(marker_cluster_0f7cb20e044ecca2491c994e94da6724);
+        
+    
+            marker_5870771a2a97a8a97dde7b8eb46c83bc.bindTooltip(
+                `<div>
+                     1.0 earthquakes at (45.11, 23.21)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

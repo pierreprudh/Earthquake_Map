@@ -1,0 +1,10 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2023-03-04T06:41:22.369Z,-29.4748,-178.7874,205.681,6.9,mww,108,18,0.784,0.92,us,us7000jh99,2023-03-05T18:59:58.808Z,"Kermadec Islands, New Zealand",earthquake,7.48,4.445,0.057,30,reviewed,us,us
+2023-03-02T18:04:29.540Z,-15.4087,166.3656,10,6.5,mww,66,45,5.483,1.38,us,usd000j5jt,2023-03-04T06:43:50.217Z,"86 km WSW of Port-Olry, Vanuatu",earthquake,7.51,1.84,0.042,55,reviewed,us,us
+2023-03-01T05:36:15.000Z,-4.8138,149.487,598.925,6.5,mww,115,20,2.739,0.88,us,us7000jgfd,2023-03-02T05:48:59.783Z,"108 km NW of Kimbe, Papua New Guinea",earthquake,9.16,5.526,0.073,18,reviewed,us,us
+2023-02-23T20:02:49.464Z,3.282,128.1364,110,6.3,mww,141,27,2.609,0.9,us,us6000jr32,2023-03-03T20:33:10.383Z,"172 km N of Tobelo, Indonesia",earthquake,7.49,1.87,0.056,31,reviewed,us,us
+2023-02-23T00:37:40.397Z,38.0726,73.2077,20.522,6.8,mww,128,20,1.783,0.96,us,us6000jqxc,2023-02-24T06:53:34.411Z,"67 km W of Murghob, Tajikistan",earthquake,6.93,4.439,0.065,23,reviewed,us,us
+2023-02-20T17:04:29.747Z,36.1588,36.0238,16,6.3,mww,136,26,1.39,1,us,us6000jqcn,2023-02-28T22:24:45.566Z,"2 km NNW of Uzunbağ, Turkey",earthquake,3.49,1.721,0.031,97,reviewed,us,us
+2023-02-15T18:10:08.128Z,12.3255,123.868,8,6.1,mww,193,38,5.488,0.63,us,us6000jp76,2023-02-24T17:02:59.313Z,"11 km NNE of Miaga, Philippines",earthquake,7.91,1.77,0.036,76,reviewed,us,us
+2023-02-15T07:27:06.530Z,19.1136666666667,-155.407166666667,31.75,4.78,ml,45,185,,0.11,hv,hv73325052,2023-02-24T07:11:31.316Z,"12 km SE of Pāhala, Hawaii",earthquake,0.47,0.61,0.13919640319702,29,reviewed,hv,hv
+2023-02-14T13:16:50.833Z,45.1058,23.2068,10,5.6,mww,197,27,1.218,0.59,us,us6000jnqz,2023-02-25T09:42:19.691Z,"0 km NE of Leleşti, Romania",earthquake,5.12,1.758,0.032,95,reviewed,us,us
